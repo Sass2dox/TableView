@@ -129,7 +129,11 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="dRX-FL-4c2">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="NPu-yc-A0d"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="NPu-yc-A0d">
+                            <connections>
+                                <action selector="addPerson:" destination="C3N-RK-LNW" id="Lld-pN-dOo"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
